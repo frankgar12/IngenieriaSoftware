@@ -181,8 +181,8 @@ public class Principal extends javax.swing.JFrame {
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
         // TODO add your handling code here:
-        DirectivosLogin v = new DirectivosLogin();
-        v.setVisible(true);
+        DocentesLogin m = new DocentesLogin();
+        m.setVisible(true);
         dispose();
     }//GEN-LAST:event_btn2ActionPerformed
     public void transparenciaButton(){

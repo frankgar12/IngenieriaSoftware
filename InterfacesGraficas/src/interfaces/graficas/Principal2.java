@@ -192,13 +192,15 @@ public class Principal2 extends javax.swing.JFrame {
         );
         jDesktopPane1.setLayer(jPanel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        jMenuBar1.setBackground(new java.awt.Color(255, 204, 102));
+        jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
         jMenuBar1.setForeground(new java.awt.Color(255, 204, 51));
         jMenuBar1.setBorderPainted(false);
         jMenuBar1.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/inscripcion.png"))); // NOI18N
         jMenu2.setText("ALUMNOS");
+        jMenu2.setBorderPainted(false);
+        jMenu2.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/agregar.png"))); // NOI18N
         jMenuItem1.setText("Agregar Alumno");
@@ -213,6 +215,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/usuarios.png"))); // NOI18N
         jMenu3.setText("PADRES");
+        jMenu3.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/padres.png"))); // NOI18N
         jMenuItem3.setText("Agregar Padre");
@@ -227,6 +230,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/profesores.png"))); // NOI18N
         jMenu6.setText("DOCENTES");
+        jMenu6.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/reunion.png"))); // NOI18N
         jMenuItem2.setText("Agregar Docente");
@@ -241,6 +245,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/usuarios.png"))); // NOI18N
         jMenu8.setText("USUARIOS");
+        jMenu8.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/agregar-usuario.png"))); // NOI18N
         jMenuItem4.setText("Agregar Usuario");
@@ -255,6 +260,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/modulo.png"))); // NOI18N
         jMenu9.setText("CALIFICACIONES");
+        jMenu9.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/plan.png"))); // NOI18N
         jMenuItem5.setText("Mostar Calificaciones ");
@@ -269,6 +275,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/escuela.png"))); // NOI18N
         jMenu10.setText("ACADEMICO");
+        jMenu10.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenuItem8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/tarea.png"))); // NOI18N
         jMenuItem8.setText("Asignacion ");
@@ -292,6 +299,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/email.png"))); // NOI18N
         jMenu11.setText("CORREO");
+        jMenu11.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
         jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/ajuste_carga.png"))); // NOI18N
         jMenuItem7.setText("Comunicado");
@@ -306,6 +314,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenu12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/salir.png"))); // NOI18N
         jMenu12.setText("SALIR");
+        jMenu12.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
         jMenuBar1.add(jMenu12);
 
         setJMenuBar(jMenuBar1);

@@ -16,6 +16,8 @@ public class DocentesLogin extends javax.swing.JFrame {
      */
     public DocentesLogin() {
         initComponents();
+        transparenciaButton();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -178,15 +180,21 @@ public class DocentesLogin extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+public void transparenciaButton(){
+        btn1.setOpaque(false);
+        btn1.setContentAreaFilled(false);
+        btn1.setBorderPainted(false);
+        
+        
+    }
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordField1ActionPerformed
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
         // TODO add your handling code here:
-        Principal2 p2 = new Principal2();
-        p2.setVisible(true);
+        PrincipalMaestro pm = new PrincipalMaestro();
+        pm.setVisible(true);
         dispose();
     }//GEN-LAST:event_btn1ActionPerformed
 

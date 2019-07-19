@@ -67,7 +67,7 @@ public class RegistroDocente extends javax.swing.JInternalFrame {
         jDateChooser4 = new com.toedter.calendar.JDateChooser();
 
         jPanel1.setBackground(new java.awt.Color(153, 0, 51));
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Registro Docente", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Gadugi", 1, 24), new java.awt.Color(255, 153, 0))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)), "Registro Docente", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Gadugi", 1, 24), new java.awt.Color(255, 153, 0))); // NOI18N
         jPanel1.setForeground(new java.awt.Color(255, 204, 51));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

@@ -9,12 +9,12 @@ package interfaces.graficas;
  *
  * @author Jesus Garcia
  */
-public class Calificaciones extends javax.swing.JInternalFrame {
+public class Califcaciones2 extends javax.swing.JInternalFrame {
 
     /**
-     * Creates new form Calificaciones
+     * Creates new form Califcaciones2
      */
-    public Calificaciones() {
+    public Califcaciones2() {
         initComponents();
         transparenciaButton();
     }
@@ -28,7 +28,6 @@ public class Calificaciones extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -41,21 +40,8 @@ public class Calificaciones extends javax.swing.JInternalFrame {
         btn1 = new javax.swing.JButton();
         btn2 = new javax.swing.JButton();
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
         jPanel2.setBackground(new java.awt.Color(153, 0, 51));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)), "Calificaciones", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Gadugi", 1, 24), new java.awt.Color(255, 102, 0))); // NOI18N
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)), "Subir Calificaciones", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Gadugi", 1, 24), new java.awt.Color(255, 102, 0))); // NOI18N
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
@@ -114,7 +100,7 @@ public class Calificaciones extends javax.swing.JInternalFrame {
                 {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Matricula", "Nombre ", "Apellido P.", "Apellido M.", "1", "2", "3", "4", "5", "Promedio"
+                "Matricula", "Nombre del alumno", "Apellido P.", "Apellido M.", "1", "2", "3", "4", "5", "Promedio"
             }
         ));
         jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
@@ -124,8 +110,8 @@ public class Calificaciones extends javax.swing.JInternalFrame {
 
         btn1.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
         btn1.setForeground(new java.awt.Color(255, 102, 0));
-        btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/lupa-para-buscar.png"))); // NOI18N
-        btn1.setText("Mostrar");
+        btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/accept.png"))); // NOI18N
+        btn1.setText("Subir");
         btn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn1ActionPerformed(evt);
@@ -140,11 +126,30 @@ public class Calificaciones extends javax.swing.JInternalFrame {
         btn2.setText("Salir");
         jPanel2.add(btn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 70, -1, -1));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 400));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 640, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 640, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-public void transparenciaButton(){
+     public void transparenciaButton(){   
         btn1.setOpaque(false);
         btn1.setContentAreaFilled(false);
         btn1.setBorderPainted(false);
@@ -152,7 +157,9 @@ public void transparenciaButton(){
         btn2.setOpaque(false);
         btn2.setContentAreaFilled(false);
         btn2.setBorderPainted(false);
-}
+        
+        
+    }
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
@@ -171,7 +178,6 @@ public void transparenciaButton(){
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;

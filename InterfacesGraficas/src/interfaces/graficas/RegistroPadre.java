@@ -48,7 +48,7 @@ public class RegistroPadre extends javax.swing.JInternalFrame {
         btn3 = new javax.swing.JButton();
 
         jPanel2.setBackground(new java.awt.Color(153, 0, 51));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Registro Tutor", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Gadugi", 1, 24), new java.awt.Color(255, 102, 0))); // NOI18N
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)), "Registro Tutor", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Gadugi", 1, 24), new java.awt.Color(255, 102, 0))); // NOI18N
         jPanel2.setForeground(new java.awt.Color(255, 204, 51));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

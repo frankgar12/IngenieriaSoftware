@@ -58,7 +58,7 @@
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="66" green="cc" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="cc" red="ff" type="rgb"/>
@@ -75,6 +75,10 @@
               <Image iconType="3" name="/Pictures/inscripcion.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="ALUMNOS"/>
+            <Property name="borderPainted" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
@@ -96,6 +100,9 @@
               <Image iconType="3" name="/Pictures/usuarios.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="PADRES"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
@@ -117,6 +124,9 @@
               <Image iconType="3" name="/Pictures/profesores.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="DOCENTES"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
@@ -138,6 +148,9 @@
               <Image iconType="3" name="/Pictures/usuarios.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="USUARIOS"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
@@ -159,6 +172,9 @@
               <Image iconType="3" name="/Pictures/modulo.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="CALIFICACIONES"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
@@ -180,6 +196,9 @@
               <Image iconType="3" name="/Pictures/escuela.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="ACADEMICO"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
@@ -212,6 +231,9 @@
               <Image iconType="3" name="/Pictures/email.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="CORREO"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
@@ -233,6 +255,9 @@
               <Image iconType="3" name="/Pictures/salir.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="SALIR"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="14" style="1"/>
+            </Property>
           </Properties>
         </Menu>
       </SubComponents>
