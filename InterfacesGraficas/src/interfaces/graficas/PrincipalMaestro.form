@@ -19,7 +19,7 @@
         <Menu class="javax.swing.JMenu" name="jMenu1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Pictures/grupo.png"/>
+              <Image iconType="3" name="/Pictures/3700481-blackboard-board-chalk-class-educational-materials-school_108759.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="GRUPO"/>
             <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -44,7 +44,7 @@
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Pictures/asignatura.png"/>
+              <Image iconType="3" name="/Pictures/school_114359.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="CALIFICACIONES"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -68,7 +68,7 @@
         <Menu class="javax.swing.JMenu" name="jMenu3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Pictures/salir.png"/>
+              <Image iconType="3" name="/Pictures/Exit-Page_icon-icons.com_53732.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="SALIR"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">

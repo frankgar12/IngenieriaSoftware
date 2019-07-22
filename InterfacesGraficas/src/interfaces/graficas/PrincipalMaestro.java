@@ -136,7 +136,7 @@ public class PrincipalMaestro extends javax.swing.JFrame {
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jMenuBar1.setName(""); // NOI18N
 
-        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/grupo.png"))); // NOI18N
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/3700481-blackboard-board-chalk-class-educational-materials-school_108759.png"))); // NOI18N
         jMenu1.setText("GRUPO");
         jMenu1.setToolTipText("");
         jMenu1.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
@@ -152,7 +152,7 @@ public class PrincipalMaestro extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/asignatura.png"))); // NOI18N
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/school_114359.png"))); // NOI18N
         jMenu2.setText("CALIFICACIONES");
         jMenu2.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
@@ -167,7 +167,7 @@ public class PrincipalMaestro extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu2);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/salir.png"))); // NOI18N
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Exit-Page_icon-icons.com_53732.png"))); // NOI18N
         jMenu3.setText("SALIR");
         jMenu3.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
         jMenuBar1.add(jMenu3);

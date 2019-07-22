@@ -92,17 +92,17 @@ public class Principal2 extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(292, 292, 292)
                 .addComponent(jLabel1)
-                .addGap(287, 287, 287))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(25, Short.MAX_VALUE)
+                .addContainerGap(17, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addContainerGap())
+                .addGap(14, 14, 14))
         );
 
         jPanel3.setBackground(new java.awt.Color(153, 0, 51));
@@ -147,37 +147,35 @@ public class Principal2 extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(273, 273, 273)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(33, 33, 33)
-                                .addComponent(jLabel4)
-                                .addGap(41, 41, 41)
-                                .addComponent(jLabel5))))
+                        .addGap(319, 319, 319)
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel5))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(382, 382, 382)
-                        .addComponent(jLabel3)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 257, Short.MAX_VALUE)
-                .addComponent(jLabel6)
-                .addGap(235, 235, 235))
+                        .addGap(379, 379, 379)
+                        .addComponent(jLabel3))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(278, 278, 278)
+                        .addComponent(jLabel2))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(248, 248, 248)
+                        .addComponent(jLabel6)))
+                .addContainerGap(249, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(39, 39, 39)
+                .addGap(27, 27, 27)
                 .addComponent(jLabel2)
                 .addGap(46, 46, 46)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(jLabel4))
-                .addGap(66, 66, 66)
+                .addGap(79, 79, 79)
                 .addComponent(jLabel3)
-                .addGap(64, 64, 64)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 95, Short.MAX_VALUE)
                 .addComponent(jLabel6)
-                .addContainerGap(118, Short.MAX_VALUE))
+                .addGap(86, 86, 86))
         );
 
         javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
@@ -193,11 +191,11 @@ public class Principal2 extends javax.swing.JFrame {
         jDesktopPane1.setLayer(jPanel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jMenuBar1.setBackground(new java.awt.Color(255, 255, 255));
-        jMenuBar1.setForeground(new java.awt.Color(255, 204, 51));
+        jMenuBar1.setForeground(new java.awt.Color(255, 255, 255));
         jMenuBar1.setBorderPainted(false);
         jMenuBar1.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/inscripcion.png"))); // NOI18N
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/129manstudent1_100298.png"))); // NOI18N
         jMenu2.setText("ALUMNOS");
         jMenu2.setBorderPainted(false);
         jMenu2.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
@@ -213,7 +211,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu2);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/usuarios.png"))); // NOI18N
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Family_icon-icons.com_54182.png"))); // NOI18N
         jMenu3.setText("PADRES");
         jMenu3.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
@@ -228,7 +226,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu3);
 
-        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/profesores.png"))); // NOI18N
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/profesor.png"))); // NOI18N
         jMenu6.setText("DOCENTES");
         jMenu6.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
@@ -243,7 +241,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu6);
 
-        jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/usuarios.png"))); // NOI18N
+        jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/User_Group-80_icon-icons.com_57247.png"))); // NOI18N
         jMenu8.setText("USUARIOS");
         jMenu8.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
@@ -258,7 +256,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu8);
 
-        jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/modulo.png"))); // NOI18N
+        jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/school_114359.png"))); // NOI18N
         jMenu9.setText("CALIFICACIONES");
         jMenu9.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
@@ -273,7 +271,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu9);
 
-        jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/escuela.png"))); // NOI18N
+        jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/3700477-certificate-certified-contract-diploma-guarantee-patent-qualification_108739.png"))); // NOI18N
         jMenu10.setText("ACADEMICO");
         jMenu10.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
@@ -297,7 +295,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu10);
 
-        jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/email.png"))); // NOI18N
+        jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/GMail_icon-icons.com_76886.png"))); // NOI18N
         jMenu11.setText("CORREO");
         jMenu11.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
 
@@ -312,7 +310,7 @@ public class Principal2 extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu11);
 
-        jMenu12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/salir.png"))); // NOI18N
+        jMenu12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/Exit-Page_icon-icons.com_53732.png"))); // NOI18N
         jMenu12.setText("SALIR");
         jMenu12.setFont(new java.awt.Font("Gadugi", 1, 14)); // NOI18N
         jMenuBar1.add(jMenu12);
